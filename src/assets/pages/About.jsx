@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { FaHandshake, FaStar, FaLightbulb, FaLeaf, FaUsers } from 'react-icons/fa'
+import moremiii from '../moremiii.jpg'
 
 const values = [
   { icon: <FaHandshake />, title: 'Integrity', desc: 'We deliver what we promise.' },
@@ -83,7 +84,7 @@ const About = () => {
             width: 200, height: 200, borderRadius: '50%', overflow: 'hidden', margin: '0 auto',
             border: '6px solid #fff', boxShadow: '0 10px 30px rgba(6,47,79,0.15)',
           }}>
-            <img src="src/assets/moremiii.jpg" alt="CEO" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <img src={moremiii} alt="CEO" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
           </div>
           <div>
             <h2 style={{ color: '#062f4f', margin: '0 0 6px', fontSize: 'clamp(1.6rem, 3vw, 2.1rem)', fontWeight: 800 }}>Mr Kayode Ejidiran</h2>

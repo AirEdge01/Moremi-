@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import moremii from '../moremii.jpg'
 
 const links = [
   { label: 'Home', path: '/' },
@@ -45,7 +46,7 @@ const Navbar = () => {
           overflow: 'hidden'
         }}>
           <img 
-            src="src/assets/moremii.jpg" 
+            src={moremii} 
             alt="Moremi Group Logo" 
             style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
           />
